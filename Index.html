@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>DrivenEats</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSSreset.css">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="Cabecalho">
+            <div class="Titulo-app">
+                <h1>DrivenEats</h1>
+                <h2>Sua comida em 6 minutos</h2>
+            </div>
+        </header>
+        <main>
+            <section class="Food-section">
+                <h1>Primeiro, seu prato</h1>
+                <nav>
+                    <div class="Opcao" onclick="selecionar_item(this,'prato');">
+                        <img src="Imagens/Prato1.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Frango Grelhado</h1>
+                            <p> Arroz, frango, batata e salada</p>
+                            <h2>R$ <span>18,00</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'prato');">
+                        <img src="Imagens/Prato2.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Frango Especial</h1>
+                            <p>Frango, arroz, batata, salada e feijão </p>
+                            <h2>R$ <span>16,00</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'prato');">
+                        <img src="Imagens/Prato3.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Bife Da Casa</h1>
+                            <p>Arroz, salada, feijão e bife </p>
+                            <h2>R$ <span>20,00</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'prato');">
+                        <img src="Imagens/Prato4.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Carne De Sol</h1>
+                            <p>Arroz, salda, batata e carne</p>
+                            <h2>R$ <span>25,90</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'prato');">
+                        <img src="Imagens/Prato5.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Carne Ao Molho</h1>
+                            <p>Arroz, salada, feijão, carne e molho branco </p>
+                            <h2>R$ <span>34,50</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+            </section>
+            <section class="Food-section">
+                <h1>Agora, sua bebida</h1>
+                <nav>
+                    <div class="Opcao" onclick="selecionar_item(this,'bebida');">
+                        <img src="Imagens/Bebida1.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Coca-cola</h1>
+                            <p>Regrigerante de 1L </p>
+                            <h2>R$ <span>10,50</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'bebida');">
+                        <img src="Imagens/Bebida2.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Suco De Laranja</h1>
+                            <p>Jarra de 1L </p>
+                            <h2>R$ <span>16,00</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'bebida');">
+                        <img src="Imagens/Bebida3.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Vitamina</h1>
+                            <p>Copo de 500ml </p>
+                            <h2>R$ <span>9,00</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'bebida');">
+                        <img src="Imagens/Bebida4.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Cerveja</h1>
+                            <p>Cerveja de 1L </p>
+                            <h2>R$ <span>10,99</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'bebida');">
+                        <img src="Imagens/Bebida5.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Água</h1>
+                            <p>Garrafa de 250ml </p>
+                            <h2>R$ <span>5,00</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <section class="Food-section">
+                <h1>Por fim, sua sobremesa</h1>
+                <nav>
+                    <div class="Opcao" onclick="selecionar_item(this,'sobremesa');">
+                        <img src="Imagens/Sobremesa.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Bolo De Chocolate</h1>
+                            <p>Fatia </p>
+                            <h2>R$ <span>15,00</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'sobremesa');">
+                        <img src="Imagens/Sobremesa2.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Torta De Morango</h1>
+                            <p>Porção de 250g </p>
+                            <h2>R$ <span>19,00</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'sobremesa');">
+                        <img src="Imagens/Sobremesa3.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Pavê</h1>
+                            <p>Porção de 250g </p>
+                            <h2>R$ <span>12,50</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'sobremesa');">
+                        <img src="Imagens/Sobremesa4.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Gelatina Napolitano</h1>
+                            <p>Porção de 250g </p>
+                            <h2>R$ <span>9,90</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="Opcao" onclick="selecionar_item(this,'sobremesa');">
+                        <img src="Imagens/Sobremesa5.jpg"/>
+                        <div class="Info-alimento">
+                            <h1>Mousse Duo</h1>
+                            <p>Porção de 250g </p>
+                            <h2>R$ <span>20,00</span></h2>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+        </main>
+        <footer>
+            <div class="Botao" onclick="efetuarpedido();">Selecione os 3 itens <br> para fechar o pedido</div>
+        </footer>
+        <div class="Tela-revisao">
+            <div class="Tela-central">
+                <h1>Confirme seu pedido</h1>
+                <div class="prato"><p class="produto">Frango</p> <p class="preco">15,90</p></div>
+                <div class="bebida"><p class="produto">Frango</p> <p class="preco">15,90</p></div>
+                <div class="sobremesa"><p class="produto">Frango</p> <p class="preco">15,90</p></div>
+                <div><p class="total">TOTAL</p> <p class="valor-total">15,90</p></div>
+                <div class="Confirma-revisado" onclick="finalizarpedido();">Tudo certo, pode pedir!</div>
+                <div class="Cancelar-revisado" onclick="cancelar();">Cancelar</div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
